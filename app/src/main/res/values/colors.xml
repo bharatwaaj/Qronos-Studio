@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#f48fb1</color>
+    <color name="primaryColorDark">#e91e63</color>
+    <color name="white">#ffffff</color>
+    <color name="accentColor">#8b2323</color>
+    <color name="appBarAppNameColor">#4E2F2F</color>
+</resources>

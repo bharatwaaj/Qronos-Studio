@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Qronos</string>
+    <string name="title_activity_main">Qronos</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
