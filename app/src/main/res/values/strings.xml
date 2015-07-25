@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Qronos</string>
-    <string name="title_activity_main">Qronos</string>
+    <string name="app_name">My App</string>
+    <string name="title_activity_main">My App</string>
 
     <string name="action_settings">Settings</string>
 
