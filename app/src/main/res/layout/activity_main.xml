@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="design.material.myapplication.MainActivity"
-    android:background="@color/primaryColorDark">
+    android:background="@color/primaryColorDark"
+    >
 
     <include
         android:id="@+id/appBar"

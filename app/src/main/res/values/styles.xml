@@ -8,13 +8,14 @@
     <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorAccent">@color/accentColor</item>
+        <item name="android:actionMenuTextColor">@color/material_blue_grey_800</item>
     </style>
 
     <style name="MyCustomToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:textColorPrimary">@color/appBarAppNameColor</item>
-        <item name="android:actionBarSize">20dp</item>
-        <item name="android:textSize">15sp</item>
         <item name="background">@drawable/actionbar_layerlist</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
     </style>
 
     <color name="black">#000000</color>

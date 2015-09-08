@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primaryColor">#f48fb1</color>
-    <color name="primaryColorDark">#e91e63</color>
+
+    <!--Material Design Color Pallette-->
+    <color name="primaryColor">#ab47bc</color>
+    <color name="primaryColorDark">#7b1fa2</color>
+    <color name="accentColor">#2962ff</color>
+
     <color name="white">#ffffff</color>
-    <color name="accentColor">#8b2323</color>
     <color name="appBarAppNameColor">#4E2F2F</color>
+    <color name="grey">#78909c</color>
 </resources>

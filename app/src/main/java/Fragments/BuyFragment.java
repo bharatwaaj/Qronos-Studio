@@ -19,19 +19,10 @@ import design.material.myapplication.R;
 /**
  * Created by Bharatwaaj on 21-07-2015.
  */
-public class HomeFragment extends Fragment {
+public class BuyFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private HomeRecyclerViewAdapter homeRecyclerViewAdapter;
-
-    public static HomeFragment getInstance(int position) {
-        String _POSITION = "position";
-        HomeFragment homeFragment = new HomeFragment();
-        Bundle args = new Bundle();
-        args.putInt(_POSITION, position);
-        homeFragment.setArguments(args);
-        return homeFragment;
-    }
 
     @Nullable
     @Override
@@ -46,17 +37,11 @@ public class HomeFragment extends Fragment {
 
     public static List<HomeFragmentNewsFeedData> getDataToNewsFeed() {
         List<HomeFragmentNewsFeedData> information = new ArrayList<>();
-        int[] imageAdded = {R.drawable.landlndag,
-                R.drawable.landlndag,
-                R.drawable.landlndag,
-                R.drawable.landlndag,
-                R.drawable.landlndag,
-                R.drawable.landlndag,
-                R.drawable.landlndag,
-                R.drawable.landlndag,
-                R.drawable.landlndag};
+        int[] imageAdded = {
+                R.drawable.image,
+                };
         String[] titleAdded = {
-                "A","B","C","D","A","B","C","D","A"
+                "A"
         };
         for(int i=0;i<titleAdded.length && i<imageAdded.length ;i++){
             information.add(new HomeFragmentNewsFeedData(titleAdded[i],imageAdded[i]));

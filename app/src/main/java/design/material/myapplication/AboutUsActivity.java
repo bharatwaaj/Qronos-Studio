@@ -1,36 +1,24 @@
 package design.material.myapplication;
 
-import android.content.Intent;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import adapter.MyPagerAdapter;
-import tabslayout.SlidingTabLayout;
 
-public class MainActivity extends ActionBarActivity {
+public class AboutUsActivity extends ActionBarActivity {
 
     private Toolbar toolbar;
-    private ViewPager mPager;
-    private SlidingTabLayout mTabs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        toolbar = (Toolbar) findViewById(R.id.appBar);
+        setContentView(R.layout.activity_about_us);
+        toolbar = (Toolbar) findViewById(R.id.appBar_aboutUs);
         setSupportActionBar(toolbar);
-        mPager = (ViewPager) findViewById(R.id.pager);
-        mPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager()));
-        mTabs = (SlidingTabLayout) findViewById(R.id.tabs);
-        mTabs.setDistributeEvenly(true);
-        mTabs.setSelectedIndicatorColors(R.color.primaryColor);
-        mTabs.setViewPager(mPager);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -45,17 +33,7 @@ public class MainActivity extends ActionBarActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        if (id == R.id.action_about_us) {
-            startActivity(new Intent(MainActivity.this,AboutUsActivity.class));
-            return true;
-        }
         return super.onOptionsItemSelected(item);
     }
-
 }

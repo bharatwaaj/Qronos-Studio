@@ -4,6 +4,8 @@
     <style name="AppTheme" parent="AppTheme.Base">
         <!-- Customize your theme here. -->
         <item name="background">@drawable/actionbar_layerlist</item>
+        <item name="android:colorPrimary">@color/primaryColor</item>
+        <item name="android:colorPrimaryDark">@color/primaryColorDark</item>
     </style>
 
 </resources>

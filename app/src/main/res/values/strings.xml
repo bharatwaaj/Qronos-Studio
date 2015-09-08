@@ -1,7 +1,19 @@
 <resources>
-    <string name="app_name">My App</string>
-    <string name="title_activity_main">My App</string>
+    <string name="app_name">Reach</string>
+    <string name="title_activity_main">Reach</string>
 
     <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_about_us">About Us</string>
+    <string name="title_activity_about_us">About Us</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login_screen">Join Us</string>
+    <string name="e_mail_id_log">Email ID</string>
+    <string name="demo_user">Demo User</string>
+    <string name="user_since">124 Credits</string>
+    <string name="books_in_shelf">14 Sold</string>
 
 </resources>

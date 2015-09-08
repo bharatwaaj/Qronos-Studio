@@ -47,12 +47,12 @@ public class HomeRecyclerViewAdapter extends RecyclerView.Adapter<HomeRecyclerVi
     }
 
     class MyHomeRecyclerViewHolder extends RecyclerView.ViewHolder{
-        protected TextView titleTextView;
-        protected ImageView imageView;
+        TextView titleTextView;
+        ImageView imageView;
         public MyHomeRecyclerViewHolder(View itemView) {
             super(itemView);
-            titleTextView = (TextView) itemView.findViewById(R.id.image_view_home_card);
-            imageView = (ImageView) itemView.findViewById(R.id.text_view_home_card);
+            titleTextView = (TextView) itemView.findViewById(R.id.text_view_home_card);
+            imageView = (ImageView) itemView.findViewById(R.id.image_view_home_card);
         }
     }
 }
